@@ -1,0 +1,18 @@
+/**
+  main SASS file, only links here
+  project: <%= projectName %>
+  date: <%= generationDate %>
+  author: <%= authorEmail %>
+*/
+
+/*
+* Third Party
+*/
+//@import "../../bower_components/normalize.css/normalize.css";
+//@import "../../bower_components/royalslider/royalslider.css";
+//@import "../fonts/stylesheet.css";
+
+/*
+* Custom
+*/
+@import "partials/app";

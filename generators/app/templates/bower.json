@@ -1,0 +1,23 @@
+{
+  "name": "BUZZfriends",
+  "authors": [
+    "alex <alex@buzzfriends.ru>"
+  ],
+  "description": "frontend for buzzfriends.ru",
+  "main": "index.php",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "buzzfriends.ru",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize.css": "*",
+    "jquery": "~2.2.0"
+  }
+}
