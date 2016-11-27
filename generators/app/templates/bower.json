@@ -1,9 +1,9 @@
 {
-  "name": "BUZZfriends",
+  "name": "<%= projectName %>",
   "authors": [
-    "alex <alex@buzzfriends.ru>"
+    "<<%= authorEmail %>>"
   ],
-  "description": "frontend for buzzfriends.ru",
+  "description": "",
   "main": "index.php",
   "moduleType": [],
   "license": "MIT",
