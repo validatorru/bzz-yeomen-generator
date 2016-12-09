@@ -13,6 +13,7 @@ var gulp = require('gulp'),
     pngquant = require('imagemin-pngquant'),
     rimraf = require('rimraf'),
     browserSync = require("browser-sync"),
+    run = require('gulp-run'),
     reload = browserSync.reload;
 
 require('es6-promise').polyfill();
@@ -128,6 +129,10 @@ gulp.task('watch', function(){
     });
 });
 
+gulp.task('openEditor', function () {
+  return run('atom ./').exec();
+});
+
 gulp.task('webserver', function () {
     browserSync(config);
 });
@@ -136,4 +141,4 @@ gulp.task('clean', function (cb) {
     rimraf(path.clean, cb);
 });
 
-gulp.task('default', ['build', 'webserver', 'watch']);
+gulp.task('default', ['build', 'webserver', 'watch', 'openEditor']);
