@@ -1,4 +1,4 @@
-# generator-bzz-frontend [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
+# generator-bzz-frontend [![NPM version][npm-image]][npm-url]
 > General BUZZfriends frontend scaffold
 
 ## Installation

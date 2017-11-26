@@ -34,6 +34,10 @@ module.exports = yeoman.Base.extend({
   },
   // install node packets
   install: function () {
-    this.installDependencies();
+    this.installDependencies({
+      npm: true,
+      bower: false,
+      yarn: false
+    });
   }
 });
